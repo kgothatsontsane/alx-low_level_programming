@@ -1,4 +1,4 @@
-# C Programming - Pointers, Arrays, and Functions :computer: :wrench:
+# C - More pointers, arrays and strings
 
 ## Project Overview :mag:
 
