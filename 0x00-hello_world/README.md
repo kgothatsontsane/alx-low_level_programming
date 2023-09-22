@@ -32,10 +32,13 @@ By the end of this project, I aim to:
 
 ## Tools Used :hammer_and_wrench:
 
-- C Programming Language
-- Shell Scripts (bash)
-- Git (Version Control)
-- Betty Linter
+- **Programming Language:** C
+- **Shell: Bash 4.3.11(1)
+- **Compiler:** GCC
+- **Development Environment:** Ubuntu 20.04 LTS
+- **Code Style Checker:** Betty (betty-style.pl and betty-doc.pl)
+- **Version Control:** Git
+
 
 ## Projects :file_folder:
 
