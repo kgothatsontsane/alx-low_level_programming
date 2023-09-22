@@ -1,44 +1,37 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
- * cap_string - Capitalizes the first character of words in a string.
- * @str: The string to be capitalized.
+ * cap_string - capitalizes most of the words in a string.
+ * @s: analized string.
  *
- * Return: The string with words capitalized.
+ * Return: String with all words capitalized.
  */
-char *cap_string(char *str)
+char *cap_string(char *s)
 {
-	int index = 0; /* Index to traverse the string */
-	int is_delimiter = 1; /* Flag for character delimiter check */
-	char prev_char = ' '; /* Initialize prev_char with a space */
+	int i, j;
+	int a[] = {32, 9, 10, 44, 59, 46, 33, 63, 34, 40, 41, 123, 125};
 
-	char delimiter_chars[] = " \t\n,;.!?\"(){}"; /* Delimiter characters */
-
-	while (str[index] != '\0')
+	i = 0;
+	while (*(s + i) != '\0')
 	{
-		/* Check if the current character is a lowercase letter */
-		if (str[index] >= 'a' && str[index] <= 'z')
+		if (*(s + i) >= 'a' && *(s + i) <= 'z')
 		{
-			if (is_delimiter)
+			if (i == 0)
 			{
-				str[index] = str[index] - 32; /* Convert to uppercase */
+				*(s + i) = *(s + i) - 32;
+			}
+			else
+			{
+				for (j = 0; j <= 12; j++)
+				{
+					if (a[j] == *(s + i - 1))
+					{
+						*(s + i) = *(s + i) - 32;
+					}
+				}
 			}
 		}
-
-		/* Check if the current character is one of the delimiter characters */
-		for (int i = 0; i <= 12; i++)
-		{
-			if (delimiter_chars[i] == prev_char)
-			{
-				is_delimiter = 1; /* Set delimiter flag */
-				break;
-			}
-			is_delimiter = 0; /* Clear delimiter flag */
-		}
-
-		prev_char = str[index]; /* Store the current character's ASCII code */
-		index++;
+	i++;
 	}
-	return (str);
+	return (s);
 }
