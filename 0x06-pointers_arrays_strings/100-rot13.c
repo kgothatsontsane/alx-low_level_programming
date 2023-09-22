@@ -1,5 +1,3 @@
-Task 100
-
 #include "main.h"
 
 /**
