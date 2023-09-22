@@ -1,5 +1,3 @@
-Task 101
-
 #include "main.h"
 #include <stdio.h>
 /**
