@@ -1,0 +1,15 @@
+#include <stdio.h>
+/**
+ * main - prints the size of types on the computer it's compiled and run on
+ *
+ * Return: 0
+ */
+
+int main(void)
+{
+	printf("Size of a char: %1 byte(s)\n", sizeof(char));
+	printf("Size of an int: %2 byte(s)\n", sizeof(int));
+	printf("Size of a long int: %3 byte(s)\n", sizeof(long int));
+
+	return (0);
+}
