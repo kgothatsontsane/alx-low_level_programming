@@ -1,5 +1,5 @@
-#inlcude < stdio.h >
-#inlcude < stdlib.h >
+#inlcude <stdio.h>
+#inlcude <stdlib.h>
 #include <dog.h>
 
 /**
@@ -20,5 +20,5 @@ void print_dog(struct dog *d)
 	if (d->owner == NULL)
 		d->owner = "(nil)";
 
-	prinf("Name: %s\n Age: %f\n Owner: %s\n", d->name, d->age, d->owner);
+	printf("Name: %s\n Age: %f\n Owner: %s\n", d->name, d->age, d->owner);
 }
