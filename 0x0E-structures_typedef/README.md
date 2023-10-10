@@ -1,3 +1,6 @@
+I apologize for the formatting issue. Here's the corrected Markdown with the table:
+
+```markdown
 # 0x0E. C - Structures, typedef :building_construction:
 
 ## Learning Objectives :brain:
@@ -19,8 +22,8 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 ## Tasks :pencil:
 
-| Task                                       | Description                                                                  |
-|--------------------------------------------|------------------------------------------------------------------------------|
+| Task                                       | Description                                                                                              |
+|--------------------------------------------|----------------------------------------------------------------------------------------------------------|
 | **0. Poppy**                               | Define a new type struct dog with the following elements: 🐾
                                            - name, type = char *
                                            - age, type = float
@@ -40,3 +43,6 @@ At the end of this project, you are expected to be able to explain to anyone, wi
                                       - Return NULL if the function fails |
 | **5. How many legs does a dog have if you call his tail a leg? Four. Saying that a tail is a leg doesn't make it a leg** | Write a function that frees dogs. 🦴
                                       - Prototype: void free_dog(dog_t *d); 🐾 |
+```
+
+Now the table should display correctly.
