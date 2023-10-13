@@ -4,10 +4,10 @@
 /**
  * sum_them_all - returns the sum of all its parameters
  *
- * Return: the sum of all parameters, otherwise if n == 0 return 0
- *
  * @n: the number of parameters passed to the function
  * @...: variadic number of parameters that will be summed
+ *
+ * Return: 0 if n == 0, otherise return sum of parameters
  */
 
 int sum_them_all(const unsigned int n, ...)
