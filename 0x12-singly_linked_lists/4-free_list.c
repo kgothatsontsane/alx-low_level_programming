@@ -2,9 +2,9 @@
 #include "lists.h"
 
 /**
-* free_list - Realease the memory allocated for a list
+* free_list - a function that frees a list_t list
 *
-* @head: A pointer to the first node of the list to free
+* @head: A pointer to the head of the linked-list 
 */
 void free_list(list_t *head)
 {
