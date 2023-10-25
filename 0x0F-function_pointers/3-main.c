@@ -1,5 +1,3 @@
-`/* 3-main.c */
-
 #include "3-calc.h"
 #include <stdlib.h>
 #include <stdio.h>
@@ -22,7 +20,7 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 
-	operator = get_op_func(argv[2]);
+	operator = (get_op_func(argv[2]));
 
 	if (!operator)
 	{
