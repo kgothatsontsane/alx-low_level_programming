@@ -1,6 +1,8 @@
 #ifndef 3_CALC_H
 #define 3_CALC_H
 
+#include "3-get_op_func.c"
+
 /**
  * struct op - Struct op
  * @op: The operator
