@@ -16,17 +16,14 @@ int main(int argc, char **argv)
 	char *p;
 	int cents[] = {25, 10, 5, 2};
 
-
 	if (argc != 2)
 	{
 		printf("Error\n");
 		return (1);
 	}
 
-
 	total = strtol(argv[1], &p, 10);
 	count = 0;
-
 
 	if (!*p)
 	{
@@ -49,8 +46,6 @@ int main(int argc, char **argv)
 		printf("Error\n");
 		return (1);
 	}
-
-
 	printf("%d\n", count);
 	return (0);
 }
