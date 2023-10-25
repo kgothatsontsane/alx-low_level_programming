@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-
 /**
  * print_opcodes - print the opcodes of the current program
  * @a: address of the main function
@@ -23,7 +22,6 @@ void print_opcodes(char *a, int n)
 	printf("\n");
 }
 
-
 /**
  * main - prints the opcodes of its own main function
  * @argc: number of arguments n
@@ -34,7 +32,6 @@ void print_opcodes(char *a, int n)
 int main(int argc, char **argv)
 {
 	int n;
-
 
 	if (argc != 2)
 	{
