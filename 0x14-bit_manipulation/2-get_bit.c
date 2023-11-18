@@ -2,7 +2,6 @@
 
 /**
  * get_bit - returns the value of a bit at a given index.
-
  * @n: number to be assessed
  * @index: the given index value of the bit
  *
