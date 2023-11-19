@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * read_textfile - reads a text file and prints it to the POSIX standard output.
+ * read_textfile - reads a text file and prints it to the standard output.
  * @filename: filename of the text file being read
  * @letters: the number of letters to be read
  * Return: the number of bytes read and written to STDOUT
