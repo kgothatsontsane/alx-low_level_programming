@@ -1,10 +1,6 @@
-# C - Implementation of Doubly Linked Lists
+# C - Doubly Linked Lists
 
-In this project, I learned about using doubly-linked lists in C.
-
-## Testing ✔️
-
-* [tests](./tests): Folder of test files provided by ALX.
+This project involved the utilization of doubly-linked lists in the C programming language.
 
 ## Header File 📁
 
@@ -12,7 +8,7 @@ In this project, I learned about using doubly-linked lists in C.
 
 | Type/File           | Definition/Prototype           |
 | ------------------- | ------------------------------ |
-| `struct dlistint_s`    | <ul><li>`int n`</li><li>`struct dlistint_s *prev`</li><li>`struct dlistint_s *new`</li></ul> |
+| `struct dlistint_s`    | <ul><li>`int n`</li><li>`struct dlistint_s *prev`</li><li>`struct dlistint_s *next`</li></ul> |
 | `typedef dlistint_t`   | `struct dlistint_s`                                                                          |
 | `0-print_dlistint.c`   | `size_t print_dlistint(const dlistint_t *h);`                                                |
 | `1-dlistint_len.c`     | `size_t dlistint_len(const dlistint_t *h);`                                                  |
