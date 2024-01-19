@@ -27,7 +27,7 @@ In this project, I learned about using doubly-linked lists in C.
 ## Project Tasks 📃
 
 * **Task 0: Print List**
-  * [0-print_dlistint.c](./0-print_dlinstint.c): C function designed to print all elements of a doubly-linked `dlistint_t` list.
+  * [0-print_dlistint.c](./0-print_dlistint.c): C function designed to print all elements of a doubly-linked `dlistint_t` list.
   * Returns the count of nodes in the list.
 
 * **Task 1: List Length**
