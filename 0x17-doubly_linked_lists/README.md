@@ -58,12 +58,12 @@ This project involved the utilization of doubly-linked lists in the C programmin
   * Returns `-1` on failure, otherwise returns `1`.
 
 * **Task 9: Crackme4**
-  * [100-password](./100-password): Text file containing the password for the [crackme4](https://github.com/holbertonschool/0x16.c) executable.
+  * [100-password](./100-password): Text file containing the password for the [crackme4](https://github.com/alx-tools/0x17.c.
 
 * **Task 10: Palindromes**
   * [102-result](./102-result): Text file with the largest palindrome derived from the product of two three-digit numbers.
 
 * **Task 11: Crackme5**
-  * [103-keygen.c](./103-keygen.c): C function generating passwords for the [crackme5](https://github.com/holbertonschool/0x16.c) executable.
+  * [103-keygen.c](./103-keygen.c): C function generating passwords for the [crackme5](https://github.com/alx-tools/0x17.c.
   * Usage: `./crackme5 username key`
   * Usage of the keygen: `./keygen5 username`
